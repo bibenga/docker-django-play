@@ -1,0 +1,12 @@
+Django
+psycopg2-binary
+
+python-dateutil
+pytz
+
+uWSGI
+
+celery
+django-celery-beat
+redis
+django-redis
