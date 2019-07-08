@@ -1,0 +1,61 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block extrahead %}
+    {{block.super}}
+
+{% if user.is_superuser or user.is_staff %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'handler/styled-notifications/notifications.css' %}">
+    <script type="text/javascript" src="{% static 'handler/styled-notifications/notifications.js' %}"></script>
+
+    <script type="text/javascript">
+        (function() {
+            const info = window.createNotification({
+                theme: 'info',
+                displayCloseButton: true,
+                showDuration: 5000
+            });
+            const warn = window.createNotification({
+                theme: 'warning',
+                displayCloseButton: true,
+                showDuration: 5000
+            });
+            const success = window.createNotification({
+                theme: 'success',
+                displayCloseButton: true,
+                showDuration: 5000
+            });
+            const error = window.createNotification({
+                theme: 'error',
+                displayCloseButton: true,
+                showDuration: 5000
+            });
+
+            function init() {
+                var ws = new WebSocket('ws://' + window.location.host + '/api/ws/admin/');
+
+                ws.onmessage = function(e) {
+                    console.log('onmessage', e);
+
+                    info({message: e.data});
+                };
+
+                ws.onclose = function(e) {
+                    console.log('onclose', e);
+
+                    //warn({message: 'The connection was closed, try to reconnect.'});
+
+                    window.setTimeout(function () {
+                        init();
+                    }, 5000);
+                };
+            }
+
+            init();
+
+        })();
+    </script>
+{% endif %}
+
+{% endblock %}

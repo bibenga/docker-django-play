@@ -10,7 +10,7 @@ RUN apt-get update \
         libtiff5-dev libjpeg-dev libzip-dev zlib1g-dev libffi-dev libfontconfig-dev \
         libxml2-dev libxslt1-dev \
         libgdal-dev libgeos-dev libproj-dev \
-        git \
+        supervisor nginx \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /opt/app
@@ -23,10 +23,13 @@ RUN python3 -m venv /opt/venv \
 
 COPY manage.py manage.py
 COPY uwsgi.ini uwsgi.ini
+COPY supervisor.conf supervisor.conf
+COPY nginx.conf nginx.conf
 COPY run.sh run.sh
 
 ENV DJANGO_SETTINGS_MODULE handler.settings.prod
 
+COPY templates templates
 COPY handler handler
 
 EXPOSE 8000

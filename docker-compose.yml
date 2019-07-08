@@ -14,15 +14,15 @@ services:
     hostname: sensor-db
     volumes:
       - ./data/sensor-db:/var/lib/postgresql/data
-  sensor:
-    build: sensor
-    restart: always
-    env_file: env
-    depends_on:
-      - sensor-redis
-      - sensor-db
-    ports:
-      - "8001:8000"
+#  sensor:
+#    build: sensor
+#    restart: always
+#    env_file: env
+#    depends_on:
+#      - sensor-redis
+#      - sensor-db
+#    ports:
+#      - "8001:8000"
   handler-redis:
     image: redis:5
     restart: always
@@ -45,14 +45,14 @@ services:
       - handler-redis
       - handler-db
       - sensor-db
-      - sensor
+#      - sensor
     ports:
       - "8002:8000"
-  react:
-    build: react
-    restart: always
-    env_file: env
-    depends_on:
-      - handler
-    ports:
-      - "8000:3000"
+#  react:
+#    build: react
+#    restart: always
+#    env_file: env
+#    depends_on:
+#      - handler
+#    ports:
+#      - "8000:3000"

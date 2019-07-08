@@ -19,4 +19,5 @@ echo А тут нету магии которая проверит что таб
 
 /opt/venv/bin/python /opt/app/manage.py devadmin
 
-/opt/venv/bin/uwsgi /opt/app/uwsgi.ini
+#/opt/venv/bin/uwsgi /opt/app/uwsgi.ini
+/usr/bin/supervisord -c /opt/app/supervisor.conf

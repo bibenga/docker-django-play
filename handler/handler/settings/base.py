@@ -42,10 +42,13 @@ LOGGING = {
         'mail_admins': {'level': 'ERROR', 'class': 'django.utils.log.AdminEmailHandler'}
     },
     'loggers': {
-        'django': {'handlers': ['console']},
-        'django.request': {'handlers': ['console', 'mail_admins'], 'level': 'ERROR', 'propagate': False},
+        'django': {'level': 'INFO', 'handlers': ['console']},
+        'django.request': {'level': 'ERROR', 'handlers': ['console', 'mail_admins'], 'propagate': False},
         'celery': {'level': 'INFO', 'handlers': ['console']},
         'handler': {'level': 'DEBUG', 'handlers': ['console']},
+        'channels': {'level': 'DEBUG', 'handlers': ['console']},
+        'daphne': {'level': 'DEBUG', 'handlers': ['console']},
+        'twisted': {'level': 'DEBUG', 'handlers': ['console']},
     }
 }
 
@@ -64,11 +67,12 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'django.contrib.postgres',
 
+    'channels',
+    'django_extensions',
     'rest_framework',
     'rest_framework_gis',
     'django_filters',
     'crispy_forms',
-
     'django_celery_beat',
 
     'handler',
@@ -76,6 +80,8 @@ INSTALLED_APPS = [
 
 
 MIDDLEWARE = [
+    'handler.middleware.CommonMiddleware',
+    'handler.middleware.DoNotTrackMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.middleware.gzip.GZipMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -92,7 +98,9 @@ ROOT_URLCONF = 'handler.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -106,6 +114,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'handler.wsgi.application'
+ASGI_APPLICATION = 'handler.routing.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
@@ -127,6 +136,32 @@ DATABASES = {
         'PASSWORD': 'sqlsql',
         'HOST': '127.0.0.1',
         'PORT': '5432',
+    },
+}
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://127.0.0.1:6379/2',
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+            'SERIALIZER': 'django_redis.serializers.json.JSONSerializer',
+            # 'SERIALIZER': 'django_redis.serializers.pickle.PickleSerializer',
+            # 'COMPRESSOR': 'django_redis.compressors.zlib.ZlibCompressor',
+            # 'PICKLE_VERSION': -1,
+            'IGNORE_EXCEPTIONS': True,
+        }
+    }
+}
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            # "hosts": [('127.0.0.1', 6379)],
+            "hosts": [{"address": ('127.0.0.1', 6379), "db": 2}],
+            "prefix": "micro",
+        },
     },
 }
 

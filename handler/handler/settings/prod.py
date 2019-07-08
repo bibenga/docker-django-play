@@ -23,6 +23,9 @@ DATABASES = {
     },
 }
 
+CACHES['default']['LOCATION'] = 'redis://handler-redis:6379/2'
+
+CHANNEL_LAYERS['default']['CONFIG']['hosts'] = [{"address": ('handler-redis', 6379), "db": 2}]
 
 CELERY_BROKER_URL = 'redis://handler-redis:6379/2'
 CELERY_RESULT_BACKEND = CELERY_BROKER_URL

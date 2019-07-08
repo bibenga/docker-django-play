@@ -19,3 +19,11 @@ celery
 django-celery-beat
 redis
 django-redis
+django-redisboard
+
+django-ipware
+django-extensions
+
+channels
+channels_redis
+cryptography

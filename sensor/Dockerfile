@@ -10,7 +10,7 @@ RUN apt-get update \
         libtiff5-dev libjpeg-dev libzip-dev zlib1g-dev libffi-dev libfontconfig-dev \
         libxml2-dev libxslt1-dev \
         libgdal-dev libgeos-dev libproj-dev \
-        git \
+        supervisor nginx \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /opt/app
