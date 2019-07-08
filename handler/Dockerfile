@@ -21,7 +21,6 @@ RUN python3 -m venv /opt/venv \
     && /opt/venv/bin/pip install --no-cache-dir -U pip setuptools \
     && /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
 
-COPY manage.py manage.py
 COPY uwsgi.ini uwsgi.ini
 COPY supervisor.conf supervisor.conf
 COPY nginx.conf nginx.conf
@@ -29,6 +28,7 @@ COPY run.sh run.sh
 
 ENV DJANGO_SETTINGS_MODULE handler.settings.prod
 
+COPY manage.py manage.py
 COPY templates templates
 COPY handler handler
 

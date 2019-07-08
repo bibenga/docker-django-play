@@ -55,4 +55,4 @@ services:
     depends_on:
       - handler
     ports:
-      - "8000:3000"
+      - "8000:8000"
