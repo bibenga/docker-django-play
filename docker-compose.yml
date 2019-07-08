@@ -45,7 +45,7 @@ services:
       - handler-redis
       - handler-db
       - sensor-db
-      - sensor
+#      - sensor
     ports:
       - "8002:8000"
   react:
