@@ -20,11 +20,17 @@ mindmap
         INDICATIVO
             ["AFIRMATIVO (+)"]
         SUBJUNTIVO
-            ["NEGATIVO (-) NO"]
-    CERTEZAS Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
+            ["NEGATIVO (-) ‘NO‘"]
+    CERTEZAS: Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
         INDICATIVO
             ["AFIRMATIVO (+)"]
         SUBJUNTIVO
-            ["NEGATIVO (-) NO"]
+            ["NEGATIVO (-) ‘NO‘"]
+    VALORACIÓN:
+        INFINITIVO
+            ["Opinión general (Opinión de todo el mundo)"]
+        SUBJUNTIVO
+            ["Opinión subjetiva (‘que’ + subjuntivo)"]
+        
 ```
 
