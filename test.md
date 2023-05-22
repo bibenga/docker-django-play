@@ -1,6 +1,6 @@
 Meramid
 
-```meramid
+```mermaid
 mindmap
   root((mindmap))
     Origins
