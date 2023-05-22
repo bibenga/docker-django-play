@@ -1,7 +1,6 @@
 # Mermaid
 
 ## V1
-
 ```mermaid
 flowchart
     OPINIÓN[VERBOS DE OPINIÓN]
@@ -23,7 +22,6 @@ flowchart
 
 
 ## V2
-
 ```mermaid
 mindmap
 ¿Cuándo cambiar a Subjuntivo?
@@ -80,6 +78,23 @@ mindmap
                 Futuro con IR + A + Infinitivo
                 Futuro
                 Imperativo
-
 ```
 
+## V3
+```mermaid
+stateDiagram-v2
+    Cuándo: ¿Cuándo cambiar a Subjuntivo?
+    OPINIÓN: VERBOS DE OPINIÓN - PENSAR, CREER, OPINAR, ME PARECE QUE
+    CERTEZAS: CERTEZAS - Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
+
+    [*] --> Cuándo
+    Cuándo --> OPINIÓN
+    OPINIÓN --> INDICATIVO: AFIRMATIVO (+)
+    OPINIÓN --> SUBJUNTIVO: NEGATIVO (-) ‘NO‘
+
+    Cuándo --> CERTEZAS
+    CERTEZAS --> INDICATIVO: AFIRMATIVO (+)
+    CERTEZAS --> SUBJUNTIVO: NEGATIVO (-) ‘NO‘
+
+
+```
