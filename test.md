@@ -67,6 +67,15 @@ mindmap
             Tenemos una cosa conocida, una cosa que sabemos que existe, que podemos ver, que tenemos pruebas, tenemos información.
         SUBJUNTIVO
             Una cosa que no sabemos si existe o no existe, tenemos dudas, no está claro al 100%, no estamos seguros.
+    CUANDO + situación en el futuro, Cuando + presente de subjuntivo
+        INDICATIVO
+            Situación habitual
+        SUBJUNTIVO
+            CUANDO + situación en el futuro: Cuando + presente de subjuntivo (en la Frase 1)
+                Presente
+                Futuro con IR + A + Infinitivo
+                Futuro
+                Imperativo
 
 ```
 
