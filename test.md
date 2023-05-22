@@ -53,5 +53,20 @@ mindmap
             Misma persona en Verbo 1 y Verbo 2
         SUBJUNTIVO
             Diferente persona en Verbo 1 y Verbo 2
+    VERBOS de RECOMENDACIÓN
+        INFINITIVO
+        SUBJUNTIVO
+            que + subjuntivo
+    VERBOS DE POSIBILIDAD
+        INFINITIVO
+            Misma persona en Verbo 1 y Verbo 2
+        SUBJUNTIVO
+            Diferente persona en Verbo 1 y Verbo 2
+    ORACIONES DE RELATIVO
+        INDICATIVO
+            Tenemos una cosa conocida, una cosa que sabemos que existe, que podemos ver, que tenemos pruebas, tenemos información.
+        SUBJUNTIVO
+            Una cosa que no sabemos si existe o no existe, tenemos dudas, no está claro al 100%, no estamos seguros.
+
 ```
 
