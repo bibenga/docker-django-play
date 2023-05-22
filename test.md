@@ -35,8 +35,7 @@ mindmap
         INFINITIVO
             ["Verbo 1 y Verbo 2 -> misma persona"]
         SUBJUNTIVO
-            ["‘que’ + subjuntivo"]
-            ["Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"]
+            ["‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"]
         
 ```
 
