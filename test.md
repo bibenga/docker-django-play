@@ -95,6 +95,9 @@ stateDiagram-v2
     Cuándo --> CERTEZAS
     CERTEZAS --> INDICATIVO: AFIRMATIVO (+)
     CERTEZAS --> SUBJUNTIVO: NEGATIVO (-) ‘NO‘
+    
+    INDICATIVO --> [*]
+    SUBJUNTIVO --> [*]
 
 
 ```
