@@ -3,20 +3,20 @@
 ```mermaid
 flowchart
     OPINIÓN[VERBOS DE OPINIÓN]
-    OPINIÓN --> INDICATIVO
-    OPINIÓN --> SUBJUNTIVO
+    OPINIÓN -- "AFIRMATIVO (+)" --> INDICATIVO
+    OPINIÓN -- "NEGATIVO (-) ‘NO‘" --> SUBJUNTIVO
     
     CERTEZAS
-    CERTEZAS --> INDICATIVO
-    CERTEZAS --> SUBJUNTIVO
+    CERTEZAS -- "AFIRMATIVO (+)" --> INDICATIVO
+    CERTEZAS -- "NEGATIVO (-) ‘NO‘" --> SUBJUNTIVO
     
     VALORACIÓN
-    VALORACIÓN --> INFINITIVO
-    VALORACIÓN --> SUBJUNTIVO
+    VALORACIÓN -- "Opinión general (Opinión de todo el mundo)" --> INFINITIVO
+    VALORACIÓN -- "Opinión subjetiva (‘que’ + subjuntivo)" --> SUBJUNTIVO
 
-    DESEO[VERBOS DE VOLUNTAD/DESEO]
-    DESEO --> INFINITIVO
-    DESEO --> SUBJUNTIVO
+    DESEO["VERBOS DE VOLUNTAD/DESEO"]
+    DESEO -- "Verbo 1 y Verbo 2 -> misma persona" --> INFINITIVO
+    DESEO -- "‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes" --> SUBJUNTIVO
 ```
 
 
