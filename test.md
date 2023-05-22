@@ -43,6 +43,15 @@ mindmap
             ["Verbo 1 y Verbo 2 -> misma persona"]
         SUBJUNTIVO
             ["‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"]
-        
+    OJALÁ
+        SUBJUNTIVO
+            ["Ojalá + subjuntivo"]
+    Verbos de deseo sin VERBO 1
+        SUBJUNTIVO
+    VERBOS COMO GUSTAR + VERBOS CON ESTRUCTURA
+        INFINITIVO
+            Misma persona en Verbo 1 y Verbo 2
+        SUBJUNTIVO
+            Diferente persona en Verbo 1 y Verbo 2
 ```
 
