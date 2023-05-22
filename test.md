@@ -31,6 +31,12 @@ mindmap
             ["Opinión general (Opinión de todo el mundo)"]
         SUBJUNTIVO
             ["Opinión subjetiva (‘que’ + subjuntivo)"]
+    VERBOS DE VOLUNTAD/DESEO: Querer, Desear, Preferir, Esperar, Tener ganas de
+        INFINITIVO
+            ["Verbo 1 y Verbo 2 -> misma persona"]
+        SUBJUNTIVO
+            ["‘que’ + subjuntivo"]
+            ["Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"]
         
 ```
 
