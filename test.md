@@ -84,20 +84,18 @@ mindmap
 ```mermaid
 stateDiagram-v2
     Cuándo: ¿Cuándo cambiar a Subjuntivo?
-    OPINIÓN: VERBOS DE OPINIÓN
-    CERTEZAS: CERTEZAS
-    
+    OPINIÓN: VERBOS DE OPINIÓN - PENSAR, CREER, OPINAR, ME PARECE QUE
+    CERTEZAS: CERTEZAS - Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
+
     state v1 <<choice>>
 
     [*] --> Cuándo
     Cuándo --> OPINIÓN
-    note right of OPINIÓN : PENSAR, CREER, OPINAR, ME PARECE QUE
     OPINIÓN --> v1
     v1 --> INDICATIVO: AFIRMATIVO (+)
     v1 --> SUBJUNTIVO: NEGATIVO (-) ‘NO‘
 
     Cuándo --> CERTEZAS
-    note right of CERTEZAS : Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
     CERTEZAS --> v1
     
     INDICATIVO --> [*]
