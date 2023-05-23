@@ -73,7 +73,7 @@ mindmap
         INDICATIVO
             Situación habitual
         {{SUBJUNTIVO}}
-            CUANDO + situación en el futuro: Cuando + presente de subjuntivo (en la Frase 1)
+            ["CUANDO + situación en el futuro: Cuando + presente de subjuntivo (en la Frase 1)"]
                 Presente
                 Futuro con IR + A + Infinitivo
                 Futuro
@@ -105,3 +105,60 @@ stateDiagram-v2
 
 
 ```
+
+## V4
+```mermaid
+mindmap
+¿Cuándo cambiar a Subjuntivo?
+    VERBOS DE OPINIÓN: PENSAR, CREER, OPINAR, ME PARECE QUE
+        ["AFIRMATIVO (+)"]
+            INDICATIVO
+        ["NEGATIVO (-) ‘NO‘"]
+            {{SUBJUNTIVO}}
+    CERTEZAS: Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
+        ["AFIRMATIVO (+)"]
+            INDICATIVO
+        ["NEGATIVO (-) ‘NO‘"]
+            {{SUBJUNTIVO}}
+    VALORACIÓN:
+        ["Opinión general (Opinión de todo el mundo)"]
+            INFINITIVO
+        ["Opinión subjetiva (‘que’ + subjuntivo)"]
+            {{SUBJUNTIVO}}
+    VERBOS DE VOLUNTAD/DESEO: Querer, Desear, Preferir, Esperar, Tener ganas de
+        ["Verbo 1 y Verbo 2 -> misma persona"]
+            INFINITIVO
+        ["‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"]
+            {{SUBJUNTIVO}}
+    OJALÁ
+        ["Ojalá + subjuntivo"]
+            {{SUBJUNTIVO}}
+    Verbos de deseo sin VERBO 1
+        {{SUBJUNTIVO}}
+    VERBOS COMO GUSTAR + VERBOS CON ESTRUCTURA
+        Misma persona en Verbo 1 y Verbo 2
+            INFINITIVO
+        Diferente persona en Verbo 1 y Verbo 2
+            {{SUBJUNTIVO}}
+    VERBOS de RECOMENDACIÓN
+        INFINITIVO
+        que + subjuntivo
+            {{SUBJUNTIVO}}
+    VERBOS DE POSIBILIDAD
+        Misma persona en Verbo 1 y Verbo 2
+            INFINITIVO
+        Diferente persona en Verbo 1 y Verbo 2
+            {{SUBJUNTIVO}}
+    ORACIONES DE RELATIVO
+        Tenemos una cosa conocida, una cosa que sabemos que existe, que podemos ver, que tenemos pruebas, tenemos información.
+            INDICATIVO
+        Una cosa que no sabemos si existe o no existe, tenemos dudas, no está claro al 100%, no estamos seguros.
+            {{SUBJUNTIVO}}
+    CUANDO + situación en el futuro, Cuando + presente de subjuntivo
+        Situación habitual
+            INDICATIVO
+        ["CUANDO + situación en el futuro: Cuando + presente de subjuntivo (en la Frase 1)"]
+            Presente, Futuro con IR + A + Infinitivo, Futuro, Imperativo
+                {{SUBJUNTIVO}}
+```
+
