@@ -2,32 +2,12 @@
 
 ## V1
 ```mermaid
-flowchart
-    OPINIÓN[VERBOS DE OPINIÓN]
-    OPINIÓN --> AFIRMATIVO --> INDICATIVO
-    OPINIÓN --> NEGATIVO --> SUBJUNTIVO
-    
-    CERTEZAS
-    CERTEZAS --> AFIRMATIVO --> INDICATIVO
-    CERTEZAS --> NEGATIVO --> SUBJUNTIVO
-    
-    VALORACIÓN
-    VALORACIÓN --> VALORACIÓN1["Opinión general (Opinión de todo el mundo)"] --> INFINITIVO
-    VALORACIÓN --> VALORACIÓN2["Opinión subjetiva (‘que’ + subjuntivo)"] --> SUBJUNTIVO
-
-    DESEO["VERBOS DE VOLUNTAD/DESEO"]
-    DESEO --> DESEO1["Verbo 1 y Verbo 2 -> misma persona"] --> INFINITIVO
-    DESEO --> DESEO2["‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"] --> SUBJUNTIVO
-```
-
-
-## V2
-```mermaid
 mindmap
 ¿Cuándo cambiar a Subjuntivo?
     VERBOS DE OPINIÓN: PENSAR, CREER, OPINAR, ME PARECE QUE
         INDICATIVO
             ["AFIRMATIVO (+)"]
+            ["INTERROGATIVO: (¿?)"]
         {{SUBJUNTIVO}}
             ["NEGATIVO (-) ‘NO‘"]
     CERTEZAS: Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
@@ -57,6 +37,7 @@ mindmap
             Diferente persona en Verbo 1 y Verbo 2
     VERBOS de RECOMENDACIÓN
         INFINITIVO
+            TIENE EL MISMO SIGNIFICADO EN SUBJUNTIVO
         {{SUBJUNTIVO}}
             que + subjuntivo
     VERBOS DE POSIBILIDAD
@@ -78,6 +59,26 @@ mindmap
                 Futuro con IR + A + Infinitivo
                 Futuro
                 Imperativo
+```
+
+## V2
+```mermaid
+flowchart
+    OPINIÓN[VERBOS DE OPINIÓN]
+    OPINIÓN --> AFIRMATIVO --> INDICATIVO
+    OPINIÓN --> NEGATIVO --> SUBJUNTIVO
+    
+    CERTEZAS
+    CERTEZAS --> AFIRMATIVO --> INDICATIVO
+    CERTEZAS --> NEGATIVO --> SUBJUNTIVO
+    
+    VALORACIÓN
+    VALORACIÓN --> VALORACIÓN1["Opinión general (Opinión de todo el mundo)"] --> INFINITIVO
+    VALORACIÓN --> VALORACIÓN2["Opinión subjetiva (‘que’ + subjuntivo)"] --> SUBJUNTIVO
+
+    DESEO["VERBOS DE VOLUNTAD/DESEO"]
+    DESEO --> DESEO1["Verbo 1 y Verbo 2 -> misma persona"] --> INFINITIVO
+    DESEO --> DESEO2["‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"] --> SUBJUNTIVO
 ```
 
 ## V3
