@@ -66,56 +66,36 @@ mindmap
 mindmap
 ¿Cuándo cambiar a Subjuntivo?
     VERBOS DE OPINIÓN: PENSAR, CREER, OPINAR, ME PARECE QUE
-        INDICATIVO
-            ["AFIRMATIVO (+)"]
-            ["INTERROGATIVO: (¿?)"]
-        {{SUBJUNTIVO}}
-            {{"🔥 NEGATIVO (-) ‘NO‘"}}
+        ["AFIRMATIVO (+)"]
+        ["INTERROGATIVO: (¿?)"]
+        {{"🔥 NEGATIVO (-) ‘NO‘"}}
     CERTEZAS: Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
-        INDICATIVO
-            ["AFIRMATIVO (+)"]
-        {{SUBJUNTIVO}}
-            {{"🔥 NEGATIVO (-) ‘NO‘"}}
+        ["AFIRMATIVO (+)"]
+        {{"🔥 NEGATIVO (-) ‘NO‘"}}
     VALORACIÓN:
-        INFINITIVO
-            ["Opinión general (Opinión de todo el mundo)"]
-        {{SUBJUNTIVO}}
-            {{"🔥 Opinión subjetiva (‘que’ + subjuntivo)"}}
+        ["Opinión general (Opinión de todo el mundo)"]
+        {{"🔥 Opinión subjetiva (‘que’ + subjuntivo)"}}
     VERBOS DE VOLUNTAD/DESEO: Querer, Desear, Preferir, Esperar, Tener ganas de
-        INFINITIVO
-            ["Verbo 1 y Verbo 2 -> misma persona"]
-        {{SUBJUNTIVO}}
-            {{"🔥 ‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"}}
+        ["Verbo 1 y Verbo 2 -> misma persona"]
+        {{"🔥 ‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"}}
+        {{🔥 Verbos de deseo sin VERBO 1}}
     OJALÁ
-        {{SUBJUNTIVO}}
-            {{"🔥 Ojalá + subjuntivo"}}
-    Verbos de deseo sin VERBO 1
-        {{SUBJUNTIVO}}
+        {{"🔥 Ojalá + subjuntivo"}}
     VERBOS COMO GUSTAR + VERBOS CON ESTRUCTURA
-        INFINITIVO
-            Misma persona en Verbo 1 y Verbo 2
-        {{SUBJUNTIVO}}
-            {{"🔥 Diferente persona en Verbo 1 y Verbo 2"}}
+        Misma persona en Verbo 1 y Verbo 2
+        {{"🔥 Diferente persona en Verbo 1 y Verbo 2"}}
     VERBOS de RECOMENDACIÓN
-        INFINITIVO
-            TIENE EL MISMO SIGNIFICADO EN SUBJUNTIVO
-        {{SUBJUNTIVO}}
-            {{"🔥 que + subjuntivo"}}
+        TIENE EL MISMO SIGNIFICADO EN SUBJUNTIVO
+        {{"🔥 que + subjuntivo"}}
     VERBOS DE POSIBILIDAD
-        INFINITIVO
-            Misma persona en Verbo 1 y Verbo 2
-        {{SUBJUNTIVO}}
-            {{"🔥 Diferente persona en Verbo 1 y Verbo 2"}}
+        Misma persona en Verbo 1 y Verbo 2
+        {{"🔥 Diferente persona en Verbo 1 y Verbo 2"}}
     ORACIONES DE RELATIVO
-        INDICATIVO
-            Tenemos una cosa conocida, una cosa que sabemos que existe, que podemos ver, que tenemos pruebas, tenemos información.
-        {{SUBJUNTIVO}}
-            {{"🔥 Una cosa que no sabemos si existe o no existe, tenemos dudas, no está claro al 100%, no estamos seguros."}}
+        Tenemos una cosa conocida, una cosa que sabemos que existe, que podemos ver, que tenemos pruebas, tenemos información.
+        {{"🔥 Una cosa que no sabemos si existe o no existe, tenemos dudas, no está claro al 100%, no estamos seguros."}}
     CUANDO + situación en el futuro, Cuando + presente de subjuntivo
-        INDICATIVO
-            Situación habitual
-        {{SUBJUNTIVO}}
-            {{"🔥 CUANDO + situación en el futuro: Cuando + presente de subjuntivo (en la Frase 1)"}}
+        Situación habitual
+        {{"🔥 CUANDO + situación en el futuro: Cuando + presente de subjuntivo (en la Frase 1)"}}
                 Presente
                 Futuro con IR + A + Infinitivo
                 Futuro
