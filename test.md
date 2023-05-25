@@ -65,35 +65,35 @@ mindmap
 ```mermaid
 mindmap
 ¿Cuándo cambiar a Subjuntivo?
-    VERBOS DE OPINIÓN: PENSAR, CREER, OPINAR, ME PARECE QUE
+    (VERBOS DE OPINIÓN: PENSAR, CREER, OPINAR, ME PARECE QUE)
         ["AFIRMATIVO (+)"]
         ["INTERROGATIVO: (¿?)"]
         {{"🔥 NEGATIVO (-) ‘NO‘"}}
-    CERTEZAS: Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que
+    (CERTEZAS: Es cierto que, Es indudable que, Está claro que, Es obvio que, Es real que, Es verdad que)
         ["AFIRMATIVO (+)"]
         {{"🔥 NEGATIVO (-) ‘NO‘"}}
-    VALORACIÓN:
+    (VALORACIÓN)
         ["Opinión general (Opinión de todo el mundo)"]
         {{"🔥 Opinión subjetiva (‘que’ + subjuntivo)"}}
-    VERBOS DE VOLUNTAD/DESEO: Querer, Desear, Preferir, Esperar, Tener ganas de
+    (VERBOS DE VOLUNTAD/DESEO: Querer, Desear, Preferir, Esperar, Tener ganas de)
         ["Verbo 1 y Verbo 2 -> misma persona"]
         {{"🔥 ‘que’ + subjuntivo: Las personas son diferentes. Verbo 1 y Verbo 2: personas diferentes"}}
         {{🔥 Verbos de deseo sin VERBO 1}}
-    OJALÁ
+    (OJALÁ)
         {{"🔥 Ojalá + subjuntivo"}}
-    VERBOS COMO GUSTAR + VERBOS CON ESTRUCTURA
+    (VERBOS COMO GUSTAR + VERBOS CON ESTRUCTURA)
         Misma persona en Verbo 1 y Verbo 2
         {{"🔥 Diferente persona en Verbo 1 y Verbo 2"}}
-    VERBOS de RECOMENDACIÓN
+    (VERBOS de RECOMENDACIÓN)
         TIENE EL MISMO SIGNIFICADO EN SUBJUNTIVO
         {{"🔥 que + subjuntivo"}}
-    VERBOS DE POSIBILIDAD
+    (VERBOS DE POSIBILIDAD)
         Misma persona en Verbo 1 y Verbo 2
         {{"🔥 Diferente persona en Verbo 1 y Verbo 2"}}
-    ORACIONES DE RELATIVO
+    (ORACIONES DE RELATIVO)
         Tenemos una cosa conocida, una cosa que sabemos que existe, que podemos ver, que tenemos pruebas, tenemos información.
         {{"🔥 Una cosa que no sabemos si existe o no existe, tenemos dudas, no está claro al 100%, no estamos seguros."}}
-    CUANDO + situación en el futuro, Cuando + presente de subjuntivo
+    (CUANDO + situación en el futuro, Cuando + presente de subjuntivo)
         Situación habitual
         {{"🔥 CUANDO + situación en el futuro: Cuando + presente de subjuntivo (en la Frase 1)"}}
                 Presente
